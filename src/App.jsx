@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import { useState } from 'react'
@@ -11,9 +11,11 @@ import Step6 from './Component/Step6';
 import Step10 from './Component/Step10';
 import Step8 from './Component/Step8';
 import Step9 from './Component/Step9';
+import Navbar from './Component/Navbar';
 
 
 const App = () => {
+  <Navbar/>
  const[step,setStep] = useState(1);
  const nextStep = () =>{
    setStep((prevStep)=>prevStep + 1);
@@ -24,7 +26,7 @@ const App = () => {
   const renderStep = () =>{
     switch(step){
       case 1:
-        return <Step1/>
+        return <Step5/>
       case 2:
         
         return <>
@@ -87,16 +89,17 @@ const App = () => {
     }
   }
   return (
+    <div >
+      <Navbar/>
     <div className="container">
     <div className="header content">
-      <span className="tag">Lorem ipsum</span>
-      <h2 className="title">
-        Lorem ipsum dolor <span>sit amet</span> consectetur
+      
+      {/* <span className="tag">Lorem ipsum</span> */}
+      <h2 className="title" >
+      Create a Project Report
       </h2>
       <p className="desc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolor,
-        voluptatibus rem in ex magni! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit.
+      Submit with your loan application as a Startup or Small Medium Business
       </p>
     </div>
     <form id="multiStepForm" className="row justify-content-center">
@@ -117,6 +120,7 @@ const App = () => {
         )}
       </div>
     </form>
+  </div>
   </div>
   )
 }

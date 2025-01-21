@@ -22,8 +22,8 @@ const Step4 = () => {
                       autoComplete="off"
                       defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4">
-                      Option 1
+                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 fw-medium">
+                      Mundra
                     </label>
                     
                   </div>
@@ -37,10 +37,25 @@ const Step4 = () => {
                       className="btn-check mustsel"
                       autoComplete="off"
                     />
-                    <label htmlFor="sme" className="btn btn-outline-primary mr-3 text-center inp4">
-                      Option 2
+                    <label htmlFor="sme" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
+                      PMEGP
                     </label>
                   </div>
+                  <div className="col-auto mb-3 mb-md-0">
+                    <input
+                      type="radio"
+                      id="sme"
+                      name="ltype"
+                      value="sme"
+                      required
+                      className="btn-check mustsel"
+                      autoComplete="off"
+                    />
+                    <label htmlFor="sme" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
+                      Normal MSME loan
+                    </label>
+                  </div>
+                  
                 </div>
               </div>
             </div>

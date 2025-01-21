@@ -10,7 +10,7 @@ const Step6 = () => {
             <div className="col-md-10 py-2 px-4">
               <h4>Lorem ipsum</h4>
               <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
-              {[1, 2, 3, 4, 5].map((num) => (
+              {[1, 2, 3, 4, 5,6,7,8,9,10].map((num) => (
                 <div className="form-check" key={num}>
                   <input
                     className="form-check-input small-radio"
@@ -20,7 +20,7 @@ const Step6 = () => {
                     name="toggleField"
                   />
                   <label className="form-check-label small-label" htmlFor={`flexCheck${num}`}>
-                    Checkbox {num}
+                    Land {num}
                   </label>
                   <input
                     type="number"

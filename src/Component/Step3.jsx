@@ -22,24 +22,62 @@ const Step3 = () => {
                       autoComplete="off"
                       defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4">
-                      Option 1
+                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                      <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/manufacturing.svg" alt="" />
+                      Manufacturing</div>
                     </label>
                     
                   </div>
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="sme"
+                      id="mudra"
                       name="ltype"
-                      value="sme"
+                      value="mudra"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
+                      // defaultChecked
                     />
-                    <label htmlFor="sme" className="btn btn-outline-primary mr-3 text-center inp4">
-                      Option 2
+                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                      <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/service.svg" alt="" />
+                      Services</div>
                     </label>
+                    
+                  </div>
+                  <div className="col-auto mb-3 mb-md-0">
+                    <input
+                      type="radio"
+                      id="mudra"
+                      name="ltype"
+                      value="mudra"
+                      required
+                      className="btn-check mustsel"
+                      autoComplete="off"
+                      // defaultChecked
+                    />
+                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                      <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/trading.svg" alt="" />
+                      Trading</div>
+                    </label>
+                    
+                  </div>
+                  <div className="col-auto mb-3 mb-md-0">
+                    <input
+                      type="radio"
+                      id="mudra"
+                      name="ltype"
+                      value="mudra"
+                      required
+                      className="btn-check mustsel"
+                      autoComplete="off"
+                      // defaultChecked
+                    />
+                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                      <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/agriculture.svg" alt="" />
+                      Agriculture</div>
+                    </label>
+                    
                   </div>
                 </div>
               </div>
