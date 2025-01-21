@@ -14,15 +14,15 @@ const Step3 = () => {
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="mudra"
+                      id="Manufacturing"
                       name="ltype"
-                      value="mudra"
+                      value="Manufacturing"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                       defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                    <label htmlFor="Manufacturing" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
                       <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/manufacturing.svg" alt="" />
                       Manufacturing</div>
                     </label>
@@ -31,15 +31,15 @@ const Step3 = () => {
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="mudra"
+                      id="Services"
                       name="ltype"
-                      value="mudra"
+                      value="Services"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                       // defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                    <label htmlFor="Services" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
                       <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/service.svg" alt="" />
                       Services</div>
                     </label>
@@ -48,15 +48,15 @@ const Step3 = () => {
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="mudra"
+                      id="Trading"
                       name="ltype"
-                      value="mudra"
+                      value="muTradingdra"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                       // defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                    <label htmlFor="Trading" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
                       <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/trading.svg" alt="" />
                       Trading</div>
                     </label>
@@ -65,15 +65,15 @@ const Step3 = () => {
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="mudra"
+                      id="Agriculture"
                       name="ltype"
-                      value="mudra"
+                      value="Agriculture"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                       // defaultChecked
                     />
-                    <label htmlFor="mudra" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
+                    <label htmlFor="Agriculture" className="btn btn-outline-primary mr-3 text-center inp4 gap-2" >
                       <div className="d-flex align-items-center gap-1 " ><img src="https://www.finline.in/assets/v3/img/agriculture.svg" alt="" />
                       Agriculture</div>
                     </label>

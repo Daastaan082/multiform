@@ -30,28 +30,28 @@ const Step4 = () => {
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="sme"
+                      id="PMEGP"
                       name="ltype"
-                      value="sme"
+                      value="PMEGP"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                     />
-                    <label htmlFor="sme" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
+                    <label htmlFor="PMEGP" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
                       PMEGP
                     </label>
                   </div>
                   <div className="col-auto mb-3 mb-md-0">
                     <input
                       type="radio"
-                      id="sme"
+                      id="Normal MSME loan"
                       name="ltype"
-                      value="sme"
+                      value="Normal MSME loan"
                       required
                       className="btn-check mustsel"
                       autoComplete="off"
                     />
-                    <label htmlFor="sme" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
+                    <label htmlFor="Normal MSME loan" className="btn fw-medium btn-outline-primary mr-3 text-center inp4">
                       Normal MSME loan
                     </label>
                   </div>
