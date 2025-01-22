@@ -1,12 +1,21 @@
 import React from "react"
 import Navbar from "./Component/Navbar"
-import Home from "./Component/Home"
-import CreateFormReport from "./Component/CreateFormReport"
+import Home from "./Pages/Home"
+import { Route, Routes } from "react-router-dom"
+import SignUp from "./Pages/SignUp"
+import Login from './Pages/Login'
+import CreateFormReport from "./Pages/CreateFormReport"
 
 const App = () => {
   return (
    <div>
-    App
+   <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/pricing' element={<CreateFormReport/>}/>
+    </Routes>
    </div>
   )
 }

@@ -1,17 +1,18 @@
 
 import { useState } from 'react'
-import Step1 from './Step1'
-import Step2 from './Step2';
-import Step3 from './Step3';
-import Step4 from './Step4';
-import Step5 from './Step5';
-import Step6 from './Step6';
-import Step10 from './Step10';
-import Step8 from './Step8';
-import Step9 from './Step9';
-import Navbar from './Navbar';
+import Step1 from '../Component/Step1';
+import Step2 from '../Component/Step2';
+import Step3 from '../Component/Step3';
+import Step4 from '../Component/Step4';
+import Step5 from '../Component/Step5';
+import Step6 from '../Component/Step6';
+import Step10 from '../Component/Step10';
+import Step8 from '../Component/Step8';
+import Step9 from '../Component/Step9';
+import Navbar from '../Component/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Step7 from './Step7';
+import Step7 from '../Component/Step7';
+import Home from './Home';
 const CreateFormReport = () => {
     const[step,setStep] = useState(1);
  const nextStep = () =>{
@@ -23,7 +24,7 @@ const CreateFormReport = () => {
   const renderStep = () =>{
     switch(step){
       case 1:
-        return <Step10/>
+        return <Step1/>
       case 2:
         
         return <>
@@ -125,6 +126,8 @@ const CreateFormReport = () => {
     }
   }
   return (
+    <>
+    <Home/>
     <form id="multiStepForm" className="row justify-content-center">
       {/* Render the current step */}
       {renderStep()}
@@ -144,6 +147,7 @@ const CreateFormReport = () => {
         
       </div>
     </form>
+    </>
   )
 }
 

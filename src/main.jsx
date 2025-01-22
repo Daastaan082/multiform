@@ -1,16 +1,13 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import {ReactDOM ,createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
-import Navbar from './Component/Navbar.jsx'
-import CreateFormReport from './Component/CreateFormReport.jsx'
-import Home from './Component/Home.jsx'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
+import CreateFormReport from './Pages/CreateFormReport'
+import Navbar from './Component/Navbar'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Navbar/>
-    {/* <App/>
-    <Home/>
-    <CreateFormReport/> */}
-  </StrictMode>,
+  <BrowserRouter>
+    <App/>
+  </BrowserRouter>
 )
