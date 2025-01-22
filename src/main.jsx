@@ -5,9 +5,10 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import CreateFormReport from './Pages/CreateFormReport'
 import Navbar from './Component/Navbar'
+import MyPdf from './Component/MyPdf'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App/>
+    <MyPdf/>
   </BrowserRouter>
 )
